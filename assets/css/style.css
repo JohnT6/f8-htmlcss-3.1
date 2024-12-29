@@ -231,6 +231,7 @@ a {
 }
 
 .hero__media-bg {
+    z-index: -1;
     position: absolute;
     left: 156px;
     bottom: 81px;
@@ -271,4 +272,189 @@ a {
     bottom: -70px;
     right: 32px;
     z-index: 2;
+}
+
+/* Trademark */
+.trademark {
+    margin-top: 130px;
+}
+
+.trademark__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 64px;
+    width: 1140px;
+    height: 201px;
+    border-radius: 100.5px;
+    background: #e2eddf;
+}
+
+.trademark-logo_gg {
+    color: var(--color-btn);
+    font-family: Poppins;
+    font-size: 3.1rem;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.trademark-logo-1,
+.trademark-logo-2,
+.trademark-logo-3 {
+    display: flex;
+    align-items: center;
+}
+
+.trademark-logo_slack {
+    color: var(--color-btn);
+    font-family: Poppins;
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 5px;
+}
+
+.trademark-logo_agworld {
+    color: #163c35;
+    font-family: Poppins;
+    font-size: 2.6rem;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 11px;
+}
+
+.trademark-logo_riotinto {
+    color: var(--color-btn);
+    font-family: "Sonsie One";
+    font-size: 2.3rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.trademark-logo_heroku {
+    color: var(--color-btn);
+    font-family: Poppins;
+    font-size: 1.9rem;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.1995rem;
+    margin-left: 14px;
+}
+
+/* Services */
+.services {
+    margin-top: 106px;
+}
+
+.services-title {
+    position: relative;
+    color: var(--primary-color);
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.6rem; /* 162.5% */
+    padding-left: 46px;
+}
+
+.services-title::before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    left: 0;
+    top: 9px;
+    width: 25px;
+    height: 1px;
+    background: var(--primary-color);
+}
+
+.services-row {
+    display: flex;
+    column-gap: 17px;
+}
+
+.services-heading {
+    position: relative;
+    width: 520px;
+    margin-right: 422px;
+}
+
+.services-heading::after {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    right: 103px;
+    bottom: 19px;
+    width: 66px;
+    height: 2px;
+    background: var(--primary-color);
+}
+
+.services-control__btn {
+    width: 54px;
+    height: 54px;
+    border: none;
+    border-radius: 54px;
+    background: #e2eddf;
+    color: var(--primary-color);
+    margin: auto 0 9px;
+}
+
+.services-control__btn:hover {
+    background: var(--color-btn);
+    color: #fff;
+    cursor: pointer;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 76px;
+    column-gap: 16px;
+}
+
+.services-item {
+    transition: 0.25s;
+}
+
+.services-item:hover {
+    transform: translateY(-10px);
+}
+
+.services-body {
+    padding: 24px 0 23px;
+    transition: 0.25s;
+}
+
+.services-item:hover .services-body {
+    background: #fff;
+    border-radius: 0 0 20px 20px;
+    padding-left: 18px;
+    box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
+}
+
+.services-item__thumb {
+    display: block;
+    width: 370px;
+    height: 318px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+
+.services-body__heading {
+    display: inline-block;
+    color: var(--primary-color);
+    font-family: Poppins;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1; /* 100% */
+}
+
+.services-body__desc {
+    width: 268px;
+    color: #7d8188;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.71; /* 171.429% */
+    margin-top: 18px;
 }
