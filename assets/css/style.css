@@ -305,7 +305,7 @@ a {
     align-items: center;
 }
 
-.trademark-logo_slack {
+.trademark-logo__slack {
     color: var(--color-btn);
     font-family: Poppins;
     font-size: 3.2rem;
@@ -314,7 +314,7 @@ a {
     margin-left: 5px;
 }
 
-.trademark-logo_agworld {
+.trademark-logo__agworld {
     color: #163c35;
     font-family: Poppins;
     font-size: 2.6rem;
@@ -323,7 +323,7 @@ a {
     margin-left: 11px;
 }
 
-.trademark-logo_riotinto {
+.trademark-logo__riotinto {
     color: var(--color-btn);
     font-family: "Sonsie One";
     font-size: 2.3rem;
@@ -331,7 +331,7 @@ a {
     line-height: normal;
 }
 
-.trademark-logo_heroku {
+.trademark-logo__heroku {
     color: var(--color-btn);
     font-family: Poppins;
     font-size: 1.9rem;
