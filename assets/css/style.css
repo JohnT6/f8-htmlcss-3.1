@@ -765,7 +765,8 @@ a {
     align-items: center;
     padding-bottom: 21px;
     height: 185px;
-    transition: 0.25s;
+    transition: 0.3s;
+    border-radius: 33px;
 }
 
 .process__idea::after {
@@ -783,7 +784,6 @@ a {
 }
 
 .process__idea:hover {
-    border-radius: 33px;
     background: #e2eddf;
     padding: 57px 0 50px 30px;
 }
